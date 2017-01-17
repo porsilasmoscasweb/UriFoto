@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Motocross - Urifoto - Photography</title>
+<meta name="description" content="Motocross"/>
+
+<link rel="shortcut icon" href="img/favicon.ico">
+<link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+var filterList = {
+    init: function () {
+        $('#wrapper').mixitup({
+        animation:{
+            enable: true,
+            effects: 'translateZ(-360px) stagger(34ms) scale(0)',
+            <!--fade, scale, translateX, translateY, translateZ, rotateX, rotateY, rotateZ, stagger-->
+            duration: 300,
+            easing: 'ease', <!--ease. snap-->
+            perspectiveDistance: '3000px',
+            perspectiveOrigin: '50% 50%',
+            queue: true,
+            queueLimit: 1,
+            animateChangeLayout: false,
+            animateResizeContainer: true,
+            animateResizeTargets: false,
+            staggerSequence: null,
+            reverseOut: false,
+        },
+            targetSelector: '.box',
+            filterSelector: '.filter',
+        });
+    }
+};
+filterList.init();
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {$("#footer").toggle(function() {
+$(".date").animate({ 'left': '81px' }, 300);
+$(".info").animate({ 'left': '-250px' }, 300);
+},
+
+function() {$(".date").animate({ 'left': '-170px' }, 300);
+$(".info").animate({ 'left': '-170px' }, 300);});
+});
+
+$(document).ready(function() {$(".info span").toggle(function() {
+$(".info").animate({ 'left': '-170px' }, 300);},
+
+function() {$(".info").animate({ 'left': '81px' }, 300);});
+});
+</script>
+
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+
+<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+
+<script type="text/javascript">
+jQuery(function($){
+$.supersized({
+    autoplay : 0,
+    slide_interval:4000,
+    transition:1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+    transition_speed:1000,
+    slide_links:'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+    slides:[    {image : 'img/sport/motocross/6.jpg', title : '',},
+                {image : 'img/sport/motocross/2.jpg', title : '',},
+                {image : 'img/sport/motocross/3.jpg', title : '',},
+                {image : 'img/sport/motocross/4.jpg', title : '',},
+                {image : 'img/sport/motocross/5.jpg', title : '',},
+                {image : 'img/sport/motocross/1.jpg', title : '',},
+                {image : 'img/sport/motocross/7.jpg', title : '',},
+                {image : 'img/sport/motocross/8.jpg', title : '',},
+                {image : 'img/sport/motocross/9.jpg', title : '',},
+                {image : 'img/sport/motocross/10.jpg', title : '',}
+    ]});
+});
+</script>
+
+</head>
+<body>
+<header>
+<a href="index.html"><div class="logo"></div></a><hr>
+<nav class="nav">
+<ul>
+    <a href="index.html">
+        <li><button class="btn btn-1c yellow"><div class="iconHeader back"></div>Back</button></li>
+    </a>
+
+    <a href="http://www.facebook.com/sharer.php?s=100&p[title]=URIFOTO&p[summary]=Motocross -&p[url]=http://www.urifoto.com&&p[images][0]=http://www.urifoto.com/motocross.php" target="_facebook" rel="image_src">
+         <li><button class="btn btn-1c"><div class="iconHeader shareFacebook"></div>Face</button></li>
+    </a>
+
+    <a href="https://twitter.com/intent/tweet?original_referer=http://www.urifoto.com&amp;text=Photographer&amp;tw_p=tweetbutton&amp;url=http://www.urifoto.com/motocross.php" target="_twitter">
+        <li><button class="btn btn-1c"><div class="iconHeader shareTwitter"></div>Twitter</button></li>
+    </a>
+
+    <a href="http://www.linkedin.com" target="_linkedin">
+        <li><button class="btn btn-1c"><div class="iconHeader shareLinkedin"></div>Linkedin</button></li>
+    </a>
+</ul>
+</nav>
+
+<footer id="footer">
+    <button class="btn btn-1c" style="color:#1A1A1A"><div class="iconHeader about"></div>About</button>
+</footer>
+</header>
+
+<div class="degradient"></div>
+
+<div class="date">
+<div class="degradientBox"></div>
+    <div class="aboutMe">
+        <h3>about me</h3>
+        <div class="splitter"></div>
+        <p>Urifoto és una web que neix de la passió per la fotografia. De petit m\'havien atret les instantànies, captar un moment concret i plasmar-lo en paper. Amb el temps la fotografia ha esdevingut una froma de viatjar, de veure el món; una forma de viure.</p>
+
+<p>Urifoto es una web que nace de la passión por la fotografía. De pequeño ya me atraían las instantáneas, capturar un momento concreto i plasmarlo en papel. Con el tiempo la fotografía pasó a ser una forma de viajar, de ver el mundo; una forma de vivir.</p>
+
+<p>Urifoto is a web that borns from the photography passion. Since I was a child I love taking pictures, capturing a particular moment and reflect it on a paper. With years, photography has become a way of travebuttonng, a way to see the world; a way of buttonfe.</p>
+    </div>
+
+    <div class="contact">
+        <h3>contact</h3>
+        <div class="splitter"></div>
+        Oriol Nicolau Vila</br>0034 657 46 20 24
+        <div class="link">
+            <a href="mailto:uri@urifoto.com" data-hover="uri@urifoto.com">uri@urifoto.com</a>
+        </div>
+        <div class="social-effect">
+            <a href="http://www.facebook.com/" class="social facebook" target="_facebook"></a>
+            <a href="http://www.twitter.com/" class="social twitter" target="_twitter"></a>
+            <a href="http://www.linkedin.com/" class="social linkedin" target="_linkedin"></a>
+            <a href="http://www.vimeo.com/" class="social vimeo" target="_vimeo"></a>
+            <a href="http://www.instagram.com/" class="social instagram" target="_instagram"></a>
+        </div>
+    </div>
+</div>
+
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+
+<div id="slidecounter">
+    <span class="slidenumber"></span> / <span class="totalslides"></span>
+</div>
+
+<!--
+<div id="controls-wrapper" class="load-item">
+    <div id="controls">
+        <ul id="slide-list"></ul>
+    </div>
+</div>
+-->
+
+
+<div class="info">
+    <span>Information</span>
+    <div class="infoBox">
+        <h3>Motocross</h3>
+        <div class="splitter"></div>
+        <p>
+        Aquest és un reportatge fotogràfic d'una cursa de motocros realitzat a la població d'Arbúcies.
+        </p>
+        <div class="splitter"></div>
+        <p>
+        Este es un reportage fotográfico de una cursa de motocros realizada en el pueblo de Arbúcies.
+        </p>
+        <div class="splitter"></div>
+        <p>This is a photo essay of a motocross race held in the village of Arbúcies. </p>
+    </div>
+</div>
+
+</body>
+</html>

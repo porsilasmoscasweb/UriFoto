@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /404/
+Disallow: /include/
+
+Sitemap: http://www.urifoto.com/sitemap.xml
